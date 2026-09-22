@@ -71,9 +71,23 @@
 
     a.class2 {color: #e4e6d8;}
     a.class2:link {text-decoration: none; color: #e4e6d8;}
-    a.class2:visited {text-decoration: none; color: #f0f0f0;}
-    a.class2:hover {text-decoration: underline; color: #f0f0f0;}
+    a.class2:visited {text-decoration: none; color: #d4d6c8;}
+    a.class2:hover {text-decoration: underline; color: #f4f6e8;}
     a.class2:active {text-decoration: none; color: #e4e6d8;}
+
+    a.class3 {color: #ede6d8;}
+    a.class3:link, a.class3:visited {
+        color: #e4e6d8;
+        padding: 15px 25px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+      }
+
+    a.class3:hover, a.class3:active {
+        color: #f4f6e8;
+        text-decoration: none;
+      }
 </style>
   </head>
   <body>
@@ -82,12 +96,12 @@
       <table style="width:100%">
       <tr>
       <td style="width:60%">  
-      <h1> <a href="#aboutme">Jakub Tucker Maths </a></h1>
+      <h1> <a href="#aboutme" class="class3">Jakub Tucker Maths </a></h1>
       </td>
       <td>
-      <h2><a href="#publications">Publications<a>
-      <a href="#talks">Talks<a>
-      <a href="#teaching">Teaching</a></h2>
+      <h2><a href="#publications" class="class3">Publications<a>
+      <a href="#talks" class="class3">Talks<a>
+      <a href="#teaching" class="class3">Teaching</a></h2>
       </td>
       </tr>
       </table>
